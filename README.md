@@ -6,8 +6,9 @@ Dynamically generated starfield skybox for Unity.
 
 ## How to use
 
-1. Add the script to your Unity project.
-2. Attach the script to a Camera that will draw the skybox.
+1. Download the [latest release](https://github.com/bodzaital/UnityStarboxer/releases).
+2. Add the script to your Unity project.
+3. Attach the script to a Camera that will draw the skybox.
 
 ## Settings
 
