@@ -6,7 +6,7 @@ Dynamically generated starfield skybox for Unity.
 
 ## How it works & Performance
 
-For each 6 faces of the skybox, the script generates stars based on a Perlin noise distribution. The first star is drawn randomly between `10` and `1000`, after that, the next star is drawn between `50` and `1000 * (1 / sample)` where the sample is the current Perlin noise value. If this distance is over, the size of the star is generated (66% roughly K-type, 24% roughly F-type, 10% roughly B-type), and another Perlin noise value is sampled.
+For each 6 faces of the skybox, the script generates stars based on a Perlin noise distribution. The first star is drawn randomly between `10` and `1000`, after that, the next star is drawn between `50` and `1000 * (1 / sample)` where the sample is the current Perlin noise value. If this distance is over, the size of the star is generated (66% red, roughly K-type, 24% white, roughly F-type, 10% blue and twice the size, roughly B-type), and another Perlin noise value is sampled.
 
 On my laptop (i5 7440HQ + GeForce 930MX), each face takes roughly 25-30 ms to generate. I guess this could be made faster with compute shaders, but that falls outside my comfort zone. The heavy part is the two nested while loops that go over the `Color[skyboxResolution * skyboxResolution]` array.
 
