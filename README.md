@@ -1,5 +1,7 @@
 # UnityStarboxer
 
+![Starfield behind Earth](https://raw.githubusercontent.com/bodzaital/UnityStarboxer/master/header.png)
+
 Dynamically generated starfield skybox for Unity.
 
 ## How to use
