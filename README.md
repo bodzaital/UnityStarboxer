@@ -10,6 +10,9 @@ Dynamically generated starfield skybox for Unity.
 2. Attach the script to a Camera that will draw the skybox.
 
 ## Settings
+
+![Starfield behind Earth](https://raw.githubusercontent.com/bodzaital/UnityStarboxer/master/inspector.png)
+
 ### Skybox LOD
 
 The level of detail, sets the resolution of the skybox texture.
